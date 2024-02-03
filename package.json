@@ -1,0 +1,32 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheekensays/Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheekensays/Testing/issues"
+  },
+  "homepage": "https://github.com/sheekensays/Testing#readme",
+  "dependencies": {
+    "@wdio/cli": "^8.29.7",
+    "axios": "^1.6.7"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.29.7",
+    "@wdio/mocha-framework": "^8.29.3",
+    "@wdio/spec-reporter": "^8.29.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
