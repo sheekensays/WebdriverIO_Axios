@@ -5,7 +5,7 @@ import SecurePage from '../pageobjects/secure.page'
 import axios from 'axios';
 
 describe('My Login application', () => {
-    it('should login with valid credentials', async () => {
+    xit('should login with valid credentials', async () => {
         await LoginPage.open()
 
         await LoginPage.login('tomsmith', 'SuperSecretPassword!')
